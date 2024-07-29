@@ -8,8 +8,8 @@
 }
 
 :root{
-    --primary-color: #52a5fdd6;
-    --text-color: #969696;
+    --primary-color: #2582e7d6;
+    --text-color: #555555;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 body {
     font-family: Inter, sans-serif;
     background-color: rgb(27, 27, 28);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* Common Styles */
@@ -53,7 +53,7 @@ img{
 
 .item_title {
     font-size: 1.6rem;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     margin: 0.8rem 0;
 }
@@ -72,7 +72,7 @@ img{
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background: #070707;
+    background: #ffffff;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     border-radius: 22px;
@@ -135,7 +135,7 @@ img{
 }
 
 .profile_name_first_name{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 200;
     font-size: clamp(2rem, 8vw, 4rem);
     text-transform: uppercase;
